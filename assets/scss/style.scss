@@ -1,0 +1,26 @@
+@import 'partials/variables';
+@import 'partials/navbar';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';
+
+section {
+    margin-top: 7rem;
+
+    
+    img {
+		width: 100%;
+		transition: .5s;
+    }
+
+    h2 {
+        color:$primary-color;
+        font-size: $font-size-big;
+        font-weight: 400;
+    }
+    
+    .nowrap {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
